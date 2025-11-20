@@ -7,10 +7,10 @@
 
 Запуск тестов
 1. Установите зависимости:
-   pip install -r requirements.txt
+   requirements.txt
 2. Запустите тесты:
 pytest
 
 Структура проекта
-- api/pet_api.py - клиент для работы с PetStore API
-- tests/test_pet.py - тесты
+- pet_api.py; store_api.py; user_api.py - клиенты для работы c API
+- test_pet.py; test_store.py; test_user.py - тесты
